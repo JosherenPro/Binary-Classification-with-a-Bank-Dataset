@@ -78,7 +78,7 @@ pip install pandas numpy matplotlib scikit-learn xgboost lightgbm
 Le notebook génère un fichier `submission.csv` dans :
 
 ```
-/content/drive/MyDrive/Binary-Classification-with-a-Bank-Dataset/data
+/content/drive/MyDrive/Binary-Classification-with-a-Bank-Dataset/
 ```
 
 formaté pour Kaggle avec :
