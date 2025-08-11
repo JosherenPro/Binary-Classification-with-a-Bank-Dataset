@@ -45,7 +45,7 @@ drive.mount('/content/drive')
 4. **Télécharger les données** dans le chemin :
 
 ```
-/content/drive/MyDrive/kaggle_1/data/
+/content/drive/MyDrive/Binary-Classification-with-a-Bank-Dataset/data
 ```
 
 5. **Installer les dépendances** si besoin :
