@@ -7,6 +7,7 @@ Ce projet implémente un pipeline complet de **classification binaire** sur un d
 * Optimisation des hyperparamètres avec `RandomizedSearchCV`
 * Comparaison de plusieurs modèles (XGBoost, LightGBM, Stacking)
 * Génération d'une soumission pour Kaggle
+* Score ROC AUC final : 0.96433
 
 ## 📂 Données
 
@@ -69,6 +70,7 @@ pip install pandas numpy matplotlib scikit-learn xgboost lightgbm
 
 * Optimisation avec `RandomizedSearchCV` (20 itérations par modèle)
 * Évaluation par **ROC AUC** en cross-validation
+* Score ROC AUC final : 0.96433
 * Comparaison des modèles via un **boxplot** (`comparaison_modeles.png`)
 
 ## 📄 Soumission
@@ -76,7 +78,7 @@ pip install pandas numpy matplotlib scikit-learn xgboost lightgbm
 Le notebook génère un fichier `submission.csv` dans :
 
 ```
-/content/drive/MyDrive/kaggle_1/data/
+/content/drive/MyDrive/Binary-Classification-with-a-Bank-Dataset/data
 ```
 
 formaté pour Kaggle avec :
